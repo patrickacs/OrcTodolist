@@ -1,0 +1,43 @@
+.TodoSearch {
+	min-height: 5rem;
+	display: flex;
+	max-width: 1024px;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+	transition: all var(--transition);
+}
+
+.search__title {
+	animation-name: todo;
+	animation-duration: 2s;
+	color:rgb(0, 0, 0);
+	font-weight: var(--bold-font);
+}
+
+@keyframes todo {
+	from {
+		transform: translateX(-100px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+.search__input {
+	display: flex;
+	padding: 0.4rem;
+	width: 14rem;
+	min-height: 2rem;
+	color: #000;
+	background-color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.search__input input {
+	padding: 0.4rem;
+	border: none;
+	display: block;
+	outline: none;
+}

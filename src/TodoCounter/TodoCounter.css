@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.TodoCounter {
+	font-family: 'Bebas Neue', cursive;
+	margin: 1rem;
+	text-align: center;
+	align-items: center;
+	color: rgb(0, 0, 0);
+	border-radius: 20px;
+	display: center;
+	max-width: 650px;
+	padding: 0.5rem;
+	width: 500px;
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	margin-bottom: 9px;
+}

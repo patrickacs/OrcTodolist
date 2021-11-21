@@ -1,0 +1,33 @@
+
+.todoForReal {
+	height: 90vh;
+    position: relative;
+    background-color: #ffffff85;
+	text-align: center;
+    margin-bottom: 35rem;
+    width: 800px;
+	justify-content: start;
+    font-size: var(--normal-font);
+    align-items: center;
+	border-radius: 25px;
+	margin: 15px auto;
+}
+
+@media (min-width: 400px) {
+	.todoForReal {
+		height: 100vh;
+	}
+}
+
+.downside {
+	display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.counter {
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
